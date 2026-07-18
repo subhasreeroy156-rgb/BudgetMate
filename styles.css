@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --surface-bg: #fff8f6;
+  --neumorphic-light-shadow: #ffffff;
+  --neumorphic-dark-shadow: #fadcd4;
+  --primary: #ae3200;
+  --primary-container: #ff5a1f;
+}
+
+body {
+  background-color: var(--surface-bg);
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Classes */
+.glass-card, .liquid-glass, .liquid-nav {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.liquid-glass {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Neumorphism Classes */
+.neumorphic-card {
+  background-color: var(--surface-bg);
+  box-shadow: 
+    -6px -6px 14px rgba(255, 255, 255, 0.8),
+    6px 6px 14px rgba(250, 220, 212, 0.6);
+  border: none;
+}
+
+.neumorphic-inset {
+  background-color: var(--surface-bg);
+  box-shadow: 
+    inset 4px 4px 8px rgba(250, 220, 212, 0.5),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+}
+
+/* Brand Gradients & Accents */
+.brand-gradient {
+  background: linear-gradient(135deg, var(--primary-container), var(--primary));
+}
+
+.active-glow {
+  background: var(--primary-container);
+  box-shadow: 0 4px 15px rgba(255, 90, 31, 0.4);
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Custom interactive effects */
+.neumorphic-card:active, .liquid-glass:active {
+  box-shadow: 
+    inset 2px 2px 5px rgba(250, 220, 212, 0.4),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+  transform: scale(0.98);
+}
