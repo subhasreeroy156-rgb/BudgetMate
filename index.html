@@ -1,0 +1,289 @@
+<!DOCTYPE html><html class="light" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "inverse-surface": "#3e2c27",
+                    "secondary-container": "#fe894b",
+                    "primary-container": "#ff5a1f",
+                    "surface-variant": "#fadcd4",
+                    "on-secondary-container": "#6b2900",
+                    "primary-fixed": "#ffdbd0",
+                    "on-tertiary-fixed": "#001e30",
+                    "primary": "#ae3200",
+                    "on-background": "#271813",
+                    "secondary": "#9f4203",
+                    "on-surface-variant": "#5b4038",
+                    "surface-container": "#ffe9e3",
+                    "primary-fixed-dim": "#ffb59e",
+                    "on-secondary-fixed": "#351000",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed-variant": "#852400",
+                    "on-error": "#ffffff",
+                    "on-surface": "#271813",
+                    "on-primary-fixed": "#3a0b00",
+                    "tertiary-fixed": "#cbe6ff",
+                    "on-tertiary-fixed-variant": "#004b71",
+                    "inverse-on-surface": "#ffede8",
+                    "surface-container-high": "#ffe2da",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-fixed-variant": "#7a3000",
+                    "on-primary": "#ffffff",
+                    "on-primary-container": "#541400",
+                    "surface-dim": "#f1d4cc",
+                    "inverse-primary": "#ffb59e",
+                    "surface-container-highest": "#fadcd4",
+                    "tertiary": "#006494",
+                    "on-tertiary-container": "#002e47",
+                    "surface-bright": "#fff8f6",
+                    "outline": "#8f7067",
+                    "surface-tint": "#ae3200",
+                    "secondary-fixed": "#ffdbcb",
+                    "background": "#fff8f6",
+                    "secondary-fixed-dim": "#ffb693",
+                    "tertiary-container": "#009ae1",
+                    "tertiary-fixed-dim": "#8ecdff",
+                    "outline-variant": "#e4beb3",
+                    "error": "#ba1a1a",
+                    "surface-container-low": "#fff1ed",
+                    "on-tertiary": "#ffffff",
+                    "surface": "#fff8f6",
+                    "on-error-container": "#93000a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-gap": "16px",
+                    "section-margin": "40px",
+                    "unit": "4px",
+                    "border-radius-card": "24px",
+                    "border-radius-button": "500px",
+                    "container-padding": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Plus Jakarta Sans"],
+                    "label-lg": ["Plus Jakarta Sans"],
+                    "display-md": ["Plus Jakarta Sans"],
+                    "body-lg": ["Plus Jakarta Sans"],
+                    "display-lg": ["Plus Jakarta Sans"],
+                    "display-lg-mobile": ["Plus Jakarta Sans"],
+                    "body-md": ["Plus Jakarta Sans"],
+                    "number-xl": ["Plus Jakarta Sans"],
+                    "headline-md": ["Plus Jakarta Sans"]
+            },
+            "fontSize": {
+                    "headline-lg": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "display-md": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "display-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "800"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "number-xl": ["42px", {"lineHeight": "42px", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                    "headline-md": ["22px", {"lineHeight": "28px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    }catch(_e){}</script></head><body class="font-body-md overflow-x-hidden bg-background">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-container-padding py-4 bg-surface/85 backdrop-blur-[16px] border-b border-white/40 shadow-[0_4px_30px_rgba(0,0,0,0.05)]">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary-container">
+<img class="w-full h-full object-cover" data-alt="A high-end cinematic portrait of a fashionable Gen Z individual with subtle lighting, clean background, representing a premium user profile. The style is minimalist luxury with warm orange and cream tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDggiyRKDYozdZH-LC1wCgflOfWHQ0Zt_HoQhvT8SGyiyigSmIcyLcpzLkqPEke93MVeWDaZoSTC7xm-xtnPTF1FbYh-wtGkTgIgB0bISXxdvLc6meG9jZzSbT8zjToM2b4LHXPDKSZP549_nbcyqHDBdXk3ol5VOijLRGIYRQsA1dhglMGLZb03qSqMTHAb9v00c6SzG7HLlVDD20YqGU3Vk5E9jhfWCKtD5LaMPXJEw8D1KPWftwIEqtVJr3cyAk-IY8l7Uq03pM" alt="User Avatar">
+</div>
+<h1 class="font-headline-md text-headline-md-mobile text-primary">Good Morning 👋</h1>
+</div>
+<button class="w-10 h-10 flex items-center justify-center rounded-full text-on-surface-variant hover:opacity-80 transition-opacity active:scale-95">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</header>
+<main class="pt-24 pb-40 px-container-padding space-y-stack-gap max-w-lg mx-auto">
+<!-- Main Balance Glass Card -->
+<section class="glass-card rounded-border-radius-card p-6 flex flex-col gap-6 relative overflow-hidden">
+<div class="space-y-1 relative z-10">
+<p class="font-label-lg text-label-lg text-on-surface-variant uppercase tracking-wider">Current Balance</p>
+<div class="flex items-baseline gap-1">
+<span class="text-headline-md font-headline-md text-on-surface-variant">$</span>
+<h2 class="font-number-xl text-number-xl text-primary">12,450.80</h2>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-4 border-t border-outline-variant/30 pt-6 relative z-10">
+<div class="text-center">
+<p class="font-label-lg text-label-lg text-on-surface-variant/70 mb-1">Income</p>
+<p class="font-headline-md text-headline-md text-tertiary">$4,200</p>
+</div>
+<div class="text-center">
+<p class="font-label-lg text-label-lg text-on-surface-variant/70 mb-1">Expense</p>
+<p class="font-headline-md text-headline-md text-secondary">$1,840</p>
+</div>
+<div class="text-center">
+<p class="font-label-lg text-label-lg text-on-surface-variant/70 mb-1">Savings</p>
+<p class="font-headline-md text-headline-md text-primary-container">$2,360</p>
+</div>
+</div>
+</section>
+<!-- Quick Actions -->
+<section class="flex justify-between items-center px-2 mt-section-margin">
+<div class="flex flex-col items-center gap-2">
+<button class="w-14 h-14 liquid-glass rounded-full flex items-center justify-center text-primary hover:scale-110 transition-all active:scale-90">
+<span class="material-symbols-outlined" data-icon="add_circle">add_circle</span>
+</button>
+<span class="font-label-lg text-[12px] text-on-surface-variant">Expense</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<button class="w-14 h-14 liquid-glass rounded-full flex items-center justify-center text-tertiary hover:scale-110 transition-all active:scale-90">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+</button>
+<span class="font-label-lg text-[12px] text-on-surface-variant">Income</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<button class="w-14 h-14 liquid-glass rounded-full flex items-center justify-center text-secondary hover:scale-110 transition-all active:scale-90">
+<span class="material-symbols-outlined" data-icon="sync_alt">sync_alt</span>
+</button>
+<span class="font-label-lg text-[12px] text-on-surface-variant">Transfer</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<button class="w-14 h-14 liquid-glass rounded-full flex items-center justify-center text-on-surface-variant hover:scale-110 transition-all active:scale-90">
+<span class="material-symbols-outlined" data-icon="schedule">schedule</span>
+</button>
+<span class="font-label-lg text-[12px] text-on-surface-variant">Reminder</span>
+</div>
+</section>
+<!-- Bento Layout: Insights & Budget -->
+<section class="grid grid-cols-2 gap-4 mt-section-margin">
+<!-- Monthly Budget Progress -->
+<div class="neumorphic-card rounded-border-radius-card p-5 flex flex-col justify-between h-48">
+<div>
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface">Budget</h3>
+<p class="font-label-lg text-[12px] text-on-surface-variant">Monthly limit</p>
+</div>
+<div class="relative w-24 h-24 mx-auto">
+<!-- Simple CSS Circle Progress -->
+<svg class="w-full h-full transform -rotate-90">
+<circle class="text-surface-variant" cx="48" cy="48" fill="transparent" r="40" stroke="currentColor" stroke-width="8"></circle>
+<circle class="text-primary-container" cx="48" cy="48" fill="transparent" r="40" stroke="currentColor" stroke-dasharray="251" stroke-dashoffset="75" stroke-width="8" stroke-linecap="round"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="font-headline-md text-on-surface">70%</span>
+</div>
+</div>
+</div>
+<!-- Mini Pie Chart / Category -->
+<div class="neumorphic-card rounded-border-radius-card p-5 flex flex-col justify-between h-48">
+<div>
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface">Overview</h3>
+<p class="font-label-lg text-[12px] text-on-surface-variant">Top category</p>
+</div>
+<div class="space-y-3">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="text-label-lg text-on-surface-variant">Food (45%)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-tertiary"></div>
+<span class="text-label-lg text-on-surface-variant">Rent (30%)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-secondary"></div>
+<span class="text-label-lg text-on-surface-variant">Misc (25%)</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Spending Progress Bar -->
+<section class="neumorphic-card rounded-border-radius-card p-6 space-y-4 mt-stack-gap">
+<div class="flex justify-between items-center">
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface">Spending Progress</h3>
+<span class="font-label-lg text-primary">$1,240 / $2,000</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-variant neumorphic-inset overflow-hidden">
+<div class="h-full brand-gradient progress-bar-fill rounded-full" style="width: 62%;"></div>
+</div>
+</section>
+<!-- Recent Transactions -->
+<section class="space-y-4 mt-section-margin">
+<div class="flex justify-between items-center px-1">
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface">Recent Activity</h3>
+<button class="text-primary font-label-lg hover:underline transition-all">View All</button>
+</div>
+<div class="space-y-2 neumorphic-card rounded-border-radius-card p-4">
+<!-- Transaction Item 1 -->
+<div class="flex items-center justify-between py-3 border-b border-outline-variant/30">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl liquid-glass flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</div>
+<div>
+<p class="font-headline-md text-[16px] text-on-surface">Nike Store</p>
+<p class="font-label-lg text-[12px] text-on-surface-variant">Today, 10:24 AM</p>
+</div>
+</div>
+<p class="font-headline-md text-[16px] text-secondary">-$120.00</p>
+</div>
+<!-- Transaction Item 2 -->
+<div class="flex items-center justify-between py-3 border-b border-outline-variant/30">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl liquid-glass flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined" data-icon="restaurant">restaurant</span>
+</div>
+<div>
+<p class="font-headline-md text-[16px] text-on-surface">Starbucks</p>
+<p class="font-label-lg text-[12px] text-on-surface-variant">Yesterday, 04:15 PM</p>
+</div>
+</div>
+<p class="font-headline-md text-[16px] text-secondary">-$8.50</p>
+</div>
+<!-- Transaction Item 3 -->
+<div class="flex items-center justify-between py-3">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl liquid-glass flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="work">work</span>
+</div>
+<div>
+<p class="font-headline-md text-[16px] text-on-surface">Client Payment</p>
+<p class="font-label-lg text-[12px] text-on-surface-variant">22 Oct, 09:00 AM</p>
+</div>
+</div>
+<p class="font-headline-md text-[16px] text-tertiary">+$2,400.00</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-32 right-8 w-16 h-16 brand-gradient text-white rounded-full shadow-[0_8px_32px_rgba(255,90,31,0.4)] flex items-center justify-center active:scale-90 transition-transform z-50 animate-float border border-white/20">
+<span class="material-symbols-outlined text-[32px]" data-icon="add">add</span>
+</button>
+<!-- BottomNavBar -->
+<div class="fixed bottom-8 left-4 right-4 z-50 max-w-lg mx-auto">
+<nav class="liquid-nav flex justify-between items-center p-2 rounded-[32px] bg-surface/80 backdrop-blur-[24px] border border-white/40 shadow-[0_8px_32px_rgba(0,0,0,0.08)]">
+<a class="flex flex-col items-center justify-center active-glow text-white rounded-[24px] px-6 py-2.5 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-lg text-[11px] mt-0.5">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:bg-white/30 rounded-[24px] transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
+<span class="font-label-lg text-[11px] mt-0.5">History</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:bg-white/30 rounded-[24px] transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="insert_chart">insert_chart</span>
+<span class="font-label-lg text-[11px] mt-0.5">Insights</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:bg-white/30 rounded-[24px] transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance_wallet">account_balance_wallet</span>
+<span class="font-label-lg text-[11px] mt-0.5">Budget</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-2 hover:bg-white/30 rounded-[24px] transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-lg text-[11px] mt-0.5">Profile</span>
+</a>
+</nav>
+</div>
+<script src="app.js"></script>
+</body></html>
